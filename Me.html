@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo">Azriel</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon" aria-label="Open menu"></i>
+
+      <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="home" class="home">
+      <div class="home-img">
+          <img
+            src="a7abdf09-370b-4da7-8210-9b983b9006c6.jpg"
+            alt="Azriel portrait"
+          />
+      </div>
+      <div class="home-content">
+        <h1>Hi, It's <span>Azriel</span></h1>
+        <h3 class="typing-text">I'm a <span id="role-text"></span></h3>
+        <p>
+          I'm a 4th-year BSIT student at STI West Negros University with a
+          passion for building simple, practical applications. I love turning
+          ideas into working code, learning new tools quickly, and collaborating
+          with teams. I'm friendly, reliable, and always curious. I enjoy
+          helping others and growing a little every day.
+        </p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/share/1BLN8BG4Z6/" aria-label="Facebook" target="_blank">
+            <img src="facebook.png" alt="Facebook logo" />
+          </a>
+          <a href="https://www.tiktok.com/@azerzofficial?_t=ZS-8ymBgvf3F6A&_r=1" aria-label="TikTok" target="_blank">
+            <img src="tiktok.png" alt="TikTok logo" />
+          </a>
+          <a href="https://github.com/jedjed0909" aria-label="GitHub" target="_blank">
+            <img src="github.png" alt="GitHub logo" />
+          </a>
+          <a href="https://www.instagram.com/az_8793?igsh=MTMyZGlkODBnd3g0cQ==" aria-label="Instagram" target="_blank">
+            <img src="instagram.png" alt="Instagram logo" />
+          </a>
+        </div>
+        <a href="#contact" class="btn">Hire me</a>
+      </div>
+    </section>
+
+    <section id="services" class="section-pad">
+      <h2>Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>
+            I build clean, simple websites with the help of AI, focusing on
+            clarity, responsiveness, and a great user experience.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Robotics (Beginner)</h3>
+          <p>
+            I prototype simple robotics projects using Arduino, sensors, and
+            motors — basic automation such as remote control robots.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Content Creation</h3>
+          <p>
+            I create content for my TikTok and Facebook accounts, such as
+            tutorials and project walkthroughs, to help others learn and grow.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Hardware Support</h3>
+          <p>
+            I troubleshoot basic hardware issues, perform simple upgrades, and
+            help optimize computer performance for everyday use.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-pad">
+      <h2>Skills</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Technical</h3>
+          <ul class="list">
+            <li>HTML, CSS, basic JavaScript</li>
+            <li>Responsive layout and simple UI</li>
+            <li>Hardware troubleshooting and setup</li>
+            <li>Basic data analysis (Excel/Sheets)</li>
+            <li>Microcontrollers (Arduino), sensors, and motor control</li>
+            <li>Basic electronics and wiring</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Tools & Collaboration</h3>
+          <ul class="list">
+            <li>Git and GitHub (beginner)</li>
+            <li>Team communication and coordination</li>
+            <li>Clear documentation and hand‑offs</li>
+            <li>Friendly, reliable, and eager to learn</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad">
+      <h2>Projects</h2>
+      <div class="cards projects-grid">
+        <div class="card project-card">
+          <div class="project-image">
+                <img id="project-preview-1" src="p1.jpg" alt="Project 1 preview" />
+          </div>
+            <h3 class="project-title">Robotic</h3>
+            <p class="project-desc">Elective final project: A robotics build demonstrating automation and control.</p>
+        </div>
+        <div class="card project-card">
+          <div class="project-image">
+                <img id="project-preview-2" src="p2.jpg" alt="Project 2 preview" />
+          </div>
+            <h3 class="project-title">Gabay</h3>
+            <p class="project-desc">Capstone project: Gabay, a guidance and support system for students.</p>
+        </div>
+        <div class="card project-card">
+          <div class="project-image">
+                <img id="project-preview-3" src="p3.jpg" alt="Project 3 preview" />
+          </div>
+            <h3 class="project-title">Simple Automate System</h3>
+            <p class="project-desc">Event-driven final project: A simple automated system for basic tasks.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-pad">
+      <h2>Experience</h2>
+      <div class="card">
+        <h3>Academic & Personal Projects</h3>
+        <ul class="list">
+          <li>Portfolio site with responsive layout and animated roles</li>
+          <li>Simple landing pages and multi‑section websites</li>
+          <li>Group assignments: planning, tasking, and presentation</li>
+          <li>PC maintenance: basic upgrades, cleanup, and optimization</li>
+          <li>
+            Simple robotics builds: line follower, obstacle avoidance, servo
+            mechanisms
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>
+          I’m open to internships, collaborations, and project help. The best
+          way to reach me is via email or the social links above.
+        </p>
+        <p style="margin-top: 1rem">
+          Email:
+          <a href="mailto:hood2251@gmail.com">hood2251@gmail.com</a>
+        </p>
+        <a
+          href="mailto:hood2251@gmail.com"
+          class="btn"
+          style="margin-top: 1.5rem"
+          >Say Hello</a>
+      </div>
+    </section>
+
+    <script>
+      const menuIcon = document.getElementById("menu-icon");
+      const navMenu = document.querySelector("header nav");
+      const navLinks = document.querySelectorAll("header nav a");
+
+      menuIcon.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+      });
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.forEach((l) => l.classList.remove("active"));
+          link.classList.add("active");
+          navMenu.classList.remove("active");
+        });
+      });
+
+      // Typing roles without CSS content property for wider browser support
+      const roles = [
+        "Web Developer",
+        "Content Creator",
+        "Hardware Specialist",
+        "Data Analyst",
+      ];
+      const roleNode = document.getElementById("role-text");
+      let roleIndex = 0;
+      let charIndex = 0;
+      let isDeleting = false;
+
+      function typeLoop() {
+        const current = roles[roleIndex];
+        const displayed = isDeleting
+          ? current.substring(0, charIndex - 1)
+          : current.substring(0, charIndex + 1);
+        roleNode.textContent = displayed;
+
+        const baseDelay = 90;
+        const pauseEnd = 1200;
+        const pauseStart = 350;
+
+        if (!isDeleting && displayed === current) {
+          isDeleting = true;
+          setTimeout(typeLoop, pauseEnd);
+        } else if (isDeleting && displayed === "") {
+          isDeleting = false;
+          roleIndex = (roleIndex + 1) % roles.length;
+          setTimeout(typeLoop, pauseStart);
+        } else {
+          charIndex = isDeleting ? charIndex - 1 : charIndex + 1;
+          setTimeout(typeLoop, baseDelay);
+        }
+      }
+
+      // kick off typing
+      typeLoop();
+    </script>
+  </body>
+</html>
